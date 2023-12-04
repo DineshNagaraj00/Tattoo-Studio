@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+/* .navbar {
+    border: 2px solid#fff;
+} */
+.navbar img {
+    position: relative;
+    width: 100px;
+    height: auto;
+    margin-left:5px;
+}
+.navbar ul {
+    float: right;
+    margin: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+}
+.navbar ul li a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 30px;
+    word-spacing: 45PX;
+}
+.head h3 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Tiro Kannada";
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.head h1 {
+    font-size: 80px;
+    color: #D1BE7A;
+    font-family: "Rose Knight";
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.gallery .first img {
+    height: 600px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border:  4px solid#fff;
+}
+.gallery .two img {
+    height: 600px;
+    margin-left: 655px;
+    margin-top: -600px;
+    margin-bottom: 50px;
+    border:  4px solid#fff;
+}
+
+.gallery .three img {
+    height: 400px;
+    margin-left: 1060px;
+    margin-top: -660px;
+    margin-bottom: 300px;
+    border:  4px solid#fff;
+}
+.gallery .four img {
+    height: 400px;
+    margin-left: 1060px;
+    margin-top: -305px;
+    /* margin-bottom: 136px; */
+    border:  4px solid#fff;
+}
+.gallery .five img {
+    height: 500px;
+    margin-left: 1330px;
+    margin-top: -819px;
+    margin-bottom: 550px;
+    border:  4px solid#fff;
+}
+.gallery .six img {
+    height: 600px;
+    margin-left: 1330px;
+    margin-top: -555px;
+    margin-bottom: 550px;
+    border:  4px solid#fff;
+}
+.gallery .seven img {
+    height: 600px;
+    margin-left: 247px;
+    margin-top: -1095px;
+    margin-bottom: 485px;
+    border:  4px solid#fff;
+}
+.gallery .eight img {
+    height: 529px;
+    margin-left: 655px;
+    margin-top: -1085px;
+    margin-bottom: 587px;
+    border:  4px solid#fff;
+}
+.gallery .nine img {
+    position: relative;
+    height: 809px;
+    margin-left: 655px;
+    margin-top: -595px;
+    margin-bottom: 587px;
+    border:  4px solid#fff;
+    z-index: 2;
+}
+.gallery .ten img {
+    position: relative;
+    height: 409px;
+    margin-left: 1200px;
+    margin-top: -1895px;
+    margin-bottom: 1025px;
+    border:  4px solid#fff;
+    z-index: 2;
+}
+.gallery .eleven img {
+    height: 407px;
+    margin-left: 1055px;
+    margin-top: -1895px;
+    margin-bottom: 1345px;
+    border:  4px solid#fff;
+    
+}
+.gallery .twelve img {
+    height: 650px;
+    margin-left: 215px;
+    margin-top: -1400px;
+    margin-bottom: 750px;
+    border:  4px solid#fff;
+}
+.gallery .thirteen img {
+    height: 409px;
+    margin-left: 1200px;
+    margin-top: -1895px;
+    margin-bottom: 725px;
+    border:  4px solid#fff;
+}
+.gallery .fortiteen img {
+    height: 650px;
+    margin-left: 215px;
+    margin-top: -800px;
+    margin-bottom: 750px;
+    border:  4px solid#fff;
+}
+.gallery .fifiteen img {
+    position: relative;
+    height: 776px;
+    margin-left: 653px;
+    margin-top: -1895px;
+    margin-bottom: 595px;
+    border:  4px solid#fff;
+    z-index: 2;
+}

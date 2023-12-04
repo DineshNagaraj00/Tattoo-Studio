@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+/* .navbar {
+    border: 2px solid#fff;
+} */
+.navbar img {
+    position: relative;
+    width: 100px;
+    height: auto;
+    margin-left:5px;
+}
+.navbar ul {
+    float: right;
+    margin: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+}
+.navbar ul li a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 30px;
+    word-spacing: 45PX;
+}
+
+.bodyone img {
+    height: 800px;
+    margin-left: 700px;
+    margin-top: -150px;
+    position: absolute;
+    z-index: -1;
+
+}
+.bodyone h1 {
+    position: relative;
+    font-family: "Rose Knight";
+    color: #D1BE7A;
+    font-size: 100px;
+    margin-top: 250px;
+    margin-left: 200px;
+    animation: one 3s linear ;
+
+}
+@keyframes one{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 100px;
+    }
+    100%{
+        margin-left: 200px;
+    }
+}
+.bodyone h2 {
+    position: absolute;
+    font-family: "Tiro Kannada";
+    font-style: italic;
+    color: #fff;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-left: 350px;
+
+}
+.bodyone p {
+    position: absolute;
+    font-family: "Tiro Kannada";
+    font-style: italic;
+    color: #fff;
+    font-size:25px;
+    margin-top: 150px;
+    margin-left: 150px;
+
+}
+.bodyone .box {
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+.bodyone .box p {
+    /* position: absolute; */
+    font-family: "Tiro Kannada";
+    color: #000000;
+    font-size:30px;
+    margin-top:15px;
+    margin-left: 34px;
+    font-weight: bold;
+}
+.location h1 {
+    color: #fff;
+    margin-left: 1350px;
+    margin-top: -100px;
+    font-size: 45px;
+}
+.location h3 {
+    color: #D1BE7A;
+    margin-left: 1450px;
+    font-size: 30px;
+}
+.artist h1 {
+    color: #fff;
+    margin-left: 1350px;
+    margin-top: 100px;
+    font-size: 45px;
+}
+.artist h3 {
+    color: #D1BE7A;
+    margin-left: 1450px;
+    margin-top: -px;
+    font-size: 30px;
+}
+.ourservices {
+    width: 1000px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 300px;
+    margin-left: 400px;
+}
+.head h1 {
+    color: #fff;
+    margin-left: 1100px;
+    margin-top: -270px;
+    font-size: 50px;
+    font-family: "Tiro Kannada";
+    font-style: italic;    
+}
+.head .para h3{
+    color: #000000;
+    font-size: 35px;
+    margin-left: 500px;
+    margin-top: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+.head .para p{
+    color: #000000;
+    font-size: 15px;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.head .paraone h3{
+    color: #000000;
+    font-size: 35px;
+    margin-left: 780px;
+    margin-bottom: 300px;
+    margin-top: -140px;
+    font-weight: bold;
+    font-style: italic;
+   
+}
+.head .paraone p{
+    color: #000000;
+    font-size: 15px;
+    margin-left: 780px;
+    margin-top: -270px;
+}
+.head .paratwo h3{
+    color: #000000;
+    font-size: 35px;
+    margin-left: 1100px;
+    margin-bottom: 300px;
+    margin-top: -140px;
+    font-weight: bold;
+    font-style: italic;
+   
+}
+.head .paratwo p{
+    color: #000000;
+    font-size: 15px;
+    margin-left: 1100px;
+    margin-top: -270px;
+}
+/* end */
+.graphics h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 180px;
+    margin-left: 500px;
+    font-family: "Tiro Kannada";
+    font-style: italic;
+}
+.graphics p {
+    font-size: 18px;
+    color: #D1BE7A;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.graphics .tattoo img {
+    height: 600px;
+    margin-left: 600px
+}
+.graphics .tattoo h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-top: -280px;
+    margin-left: 200px;
+    font-family: "Tourney";
+    font-style: italic;
+}
+.trailer h1 {
+    font-family: "Tiro Kannada";
+    font-style: italic;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 400px;
+    margin-left: 80px;
+}
+.trailer p {
+    font-size: 20px;
+    color: #D1BE7A;
+    margin-top: 30px;
+    margin-left: 80px;
+    
+}
+.albert h1 {
+    font-size: 45px;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 150px;
+    font-style: italic;
+}
+.albert h3 {
+    font-size: 40px;
+    color: #D1BE7A;
+    margin-top: 5px;
+    margin-left: 190px;
+}
+.albert img {
+    height: 500px;
+    margin-left: 230px;
+}
+.Charlotte h1 {
+    font-size: 45px;
+    color: #fff;
+    margin-top: -480px;
+    margin-left: 580px;
+    font-style: italic;
+}
+.Charlotte h3 {
+    font-size: 40px;
+    color: #D1BE7A;
+    /* margin-top: -480px; */
+    margin-left: 670px;
+}
+.Charlotte img {
+    height: 500px;
+    margin-left: 640px;
+    margin-top: 20px;
+}
+.Amelia h1 {
+    font-size: 45px;
+    color: #fff;
+    margin-top: -480px;
+    margin-left: 1060px;
+    font-style: italic;
+}
+.Amelia h3 {
+    font-size: 40px;
+    color: #D1BE7A;
+    /* margin-top: -480px; */
+    margin-left: 1100px;
+}
+.Amelia img {
+    height: 500px;
+    margin-left: 1100px;
+    margin-top: 20px;
+}
+.meet h1 {
+    font-size: 45px;
+    margin-left: 1450px;
+    margin-top: -350px;
+    color: #D1BE7A;
+}
+.meet p {
+    font-size: 20px;
+    margin-left: 1450px;
+    margin-top: 30px;
+    color: #fff;
+}
+.meet .box  {
+    width: 170px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 1460px;
+}
+.meet .box p {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:20px;
+    margin-top: 50px;
+    color: #000000;
+}
+.dummy .first p{
+    color: #D1BE7A;
+    margin-top: 280px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Tiro Kannada";
+    font-style: italic;
+
+}
+.dummy .sec p{
+    color: #D1BE7A;
+    margin-top:-70px;
+    margin-left: 1150px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Tiro Kannada";
+    font-style: italic;
+
+}
+.name h1{
+
+    font-size: 50px;
+    color: #fff;
+    margin-top: 120px;
+    margin-left: 100px;
+    font-family: "Rose Knight";
+}
+.name h2{
+
+    font-size: 50px;
+    color: #D1BE7A;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: "Rose Knight";
+
+}
+.boxes .firstimage img {
+    height: 400px;
+    margin-left: 300px;
+}
+.boxes .secimage img {
+    height: 200px;
+    margin-left: 600px;
+    margin-top: -900px;
+    margin-bottom: 200px;
+}
+.boxes .thirdimage img {
+    height: 200px;
+    margin-left: 600px;
+    margin-top: -900px;
+    margin-bottom: 30px;
+}
+.boxes .fourimage img {
+    height: 450px;
+    margin-left: 900px;
+    margin-top: -420px;
+    margin-bottom: 400px;
+}
+.boxes .fiveimage img {
+    height: 200px;
+    margin-left: 1200px;
+    margin-top: -900px;
+    margin-bottom: 650px;
+}
+.boxes .siximage img {
+    height: 450px;
+    margin-left: 1200px;
+    margin-top: -680px;
+    margin-bottom: 400px;
+}

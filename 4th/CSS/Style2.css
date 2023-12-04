@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+.navbar img {
+    position: relative;
+    width: 100px;
+    height: auto;
+    margin-left:5px;
+}
+.navbar ul {
+    float: right;
+    margin: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+}
+.navbar ul li a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 30px;
+    word-spacing: 45PX;
+}
+.bodyimage img {
+    height: 1000px;
+    margin-top: -150px;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.bodyimage  h1{
+    position: absolute;
+    color: #D1BE7A;
+    margin-left: 200px;
+    margin-top: 250px;
+    font-size: 100px;
+    font-family: "Rose Knight";
+
+}
+.artists .one img {
+    height: 600px;
+    margin-top: 1000px;
+    margin-left: 25%;
+}
+.artists .one h1 {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 25%;
+    font-size: 50px;
+}
+.artists .one h2 {
+    color: #D1BE7A;
+    font-family: "Tiro Kannada";
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 26%;
+    font-size: 30px;
+}
+.artists .two img {
+   height: 600px;
+   margin-left: 60%;
+   margin-top: -800px;
+   margin-bottom: 120px;
+}
+.artists .two h1 {
+    color: #fff;
+    margin-top: -100px;
+    margin-left: 60%;
+    font-size: 50px;
+    margin-bottom: -200px;
+    position: absolute;
+}
+.artists .two h2 {
+    color: #D1BE7A;
+    font-family: "Tiro Kannada";
+    font-style: italic;
+    margin-top: -40px;
+    margin-left: 61%;
+    font-size: 30px;
+}
+.artists .three img {
+    height: 500px;
+    margin-left: 26%;
+    margin-top: 300px;
+    margin-bottom: 120px;
+ }
+ .artists .three h1 {
+     color: #fff;
+     margin-top: -100px;
+     margin-left: 25%;
+     font-size: 50px;
+     margin-bottom: -200px;
+     position: absolute;
+ }
+ .artists .three h2{
+    color: #D1BE7A;
+    margin-left: 500px;
+    margin-top: -30px;
+    font-size: 30px;
+
+ }
+ .artists .four img {
+    height: 530px;
+    margin-left: 60%;
+    margin-top: -800px;
+    margin-bottom: 120px;
+ }
+ .artists .four h1 {
+     color: #fff;
+     margin-top: -100px;
+     margin-left: 60%;
+     font-size: 50px;
+     margin-bottom: -200px;
+     position: absolute;
+ }
+ .artists .four h2 {
+     color: #D1BE7A;
+     font-family: "Tiro Kannada";
+     font-style: italic;
+     margin-top: -35px;
+     margin-left: 61%;
+     font-size: 30px;
+ }
+ 
